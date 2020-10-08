@@ -74,3 +74,9 @@ Issues & Help
           <https://forum.solidproject.org>`_. The Solid forum is a
           good place to meet the rest of the community.
 
+
+.. toctree::
+   :titlesonly:
+   :hidden:
+
+   /faq
