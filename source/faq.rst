@@ -25,15 +25,16 @@ To adjust PodBrowser's access:
   
      #. At the bottom of the table enter:
 
-       .. list-table::
+        .. list-table::
 
-         * - Application URL
+           * - Application URL
 
-           - Access modes
+             - Access modes
 
-         * - ``https://podbrowser.inrupt.com``
+           * - ``https://podbrowser.inrupt.com``
 
-           - ``Read``, ``Write``, ``Append``, and ``Control``
+             - ``Read``, ``Write``, ``Append``, and ``Control``
+
 
       #. Click :guilabel:`Add`.
 
@@ -55,4 +56,3 @@ directly by entering the Pod (or Container) URI.
 #. Click :guilabel:`Enter`.
 
 #. The navigation panel is refreshed and shows the Resources in the Pod (or Container).
-
