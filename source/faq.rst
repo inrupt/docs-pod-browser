@@ -23,17 +23,17 @@ To adjust PodBrowser's access:
 
    * If PodBrowser is not listed as a trusted application:
   
-      #. At the bottom of the table enter:
+     #. At the bottom of the table enter:
 
-         .. list-table::
+       .. list-table::
 
-          * - Application URL
+         * - Application URL
 
-            - Access modes
+           - Access modes
 
-          * - ``https://podbrowser.inrupt.com``
+         * - ``https://podbrowser.inrupt.com``
 
-            - ``Read``, ``Write``, ``Append``, and ``Control``
+           - ``Read``, ``Write``, ``Append``, and ``Control``
 
       #. Click :guilabel:`Add`.
 
@@ -45,8 +45,8 @@ To adjust PodBrowser's access:
 How do I navigate to another Pod?
 =================================
 
-If you need to browse another Pod (or even a Containter in your own Pod), 
-you can navigate directly there by entering the Pod (or Container) URI.
+To browse another Pod (or even a different Container in your own Pod), you can navigate there 
+directly by entering the Pod (or Container) URI.
 
 #. In PodBrowser, click the current :guilabel:`Pod` identifier link (just below the application logo).
 
