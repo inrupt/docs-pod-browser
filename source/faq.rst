@@ -35,10 +35,11 @@ To adjust PodBrowser's access:
 
              - ``Read``, ``Write``, ``Append``, and ``Control``
 
+     #. Click :guilabel:`Add`.
 
-      #. Click :guilabel:`Add`.
-
-    * If PodBrowser is listed as a trusted application but with the wrong access, select all of the access modes and click :guilabel:`Update`.
+    * If PodBrowser is listed as a trusted application but with the
+      wrong access, select all of the access modes and click
+      :guilabel:`Update`.
 
 .. _`Solid Data Browser`: https://github.com/solid/userguide#data-browser-user-guide
 
