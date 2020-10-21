@@ -18,6 +18,30 @@ With `Inrupt PodBrowser`_, you can
 
 - Manage access controls to your data.
 
+Browser Support
+===============
+
+You can use `PodBrowser <https://podbrowser.inrupt.com>`_ with the
+following supported browsers:
+
+.. list-table::
+   :header-rows: 1
+
+
+   * - Browser
+     - Version(s)
+
+   * - Google Chrome
+     - 86+ 
+   
+   * - Mozilla Firefox
+     - 82+
+     
+   * - Microsoft Edge
+     - 86+
+
+   * - Apple Safari
+     - 14+
 
 Prerequisites
 =============
