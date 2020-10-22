@@ -21,12 +21,11 @@ With `Inrupt PodBrowser`_, you can
 Browser Support
 ===============
 
-You can use `PodBrowser <https://podbrowser.inrupt.com>`_ with the
-following supported browsers:
+`PodBrowser <https://podbrowser.inrupt.com>`_ supports the following
+browsers:
 
 .. list-table::
    :header-rows: 1
-
 
    * - Browser
      - Version(s)
@@ -36,12 +35,13 @@ following supported browsers:
    
    * - Mozilla Firefox
      - 82+
-     
+
    * - Microsoft Edge
      - 86+
 
    * - Apple Safari
      - 14+
+
 
 Prerequisites
 =============
