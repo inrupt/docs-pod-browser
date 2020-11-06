@@ -5,9 +5,10 @@ FAQ
 Why don't I have access to browse my Pod?
 =========================================
 
-To manage your Pod, PodBrowser must be added as 
-a trusted application with ``Read``, ``Write``, ``Append``, and ``Control``
-access. 
+To manage your Pod hosted by a Pod Server that uses `WebAccessControl
+(WAC) <https://github.com/solid/web-access-control-spec>`_, PodBrowser
+must be added as a trusted application with ``Read``, ``Write``,
+``Append``, and ``Control`` access.
 
 To adjust PodBrowser's access:
 

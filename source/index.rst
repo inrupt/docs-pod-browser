@@ -72,34 +72,48 @@ Mobile
 
      - Latest 2 stable releases
 
-Prerequisites
+Authorization
 =============
 
-You must provide `PodBrowser <https://podbrowser.inrupt.com>`_
-with ``Read``, ``Write``, ``Append``, and ``Control`` access to manage
-your Solid Pod. 
+- If your Pod is hosted by one of Inrupt's Pod spaces (i.e.,
+  https://pod.inrupt.com or https://pod-compat.inrupt.com), when you
+  login to `PodBrowser`_, you will be asked to authorize "Inrupt
+  PodBrowser". Click :guilabel:`Authorize`.
 
-For example, if your Pod's URL is ``https://docs-example.inrupt.net/``:
+- If your Pod is hosted by another Pod Server, and the Pod Server uses
+  `Web Access Control (WAC)
+  <https://github.com/solid/web-access-control-spec>`_, you must
+  provide `PodBrowser <https://podbrowser.inrupt.com>`_ with ``Read``,
+  ``Write``, ``Append``, and ``Control`` access to manage your Solid
+  Pod.
 
-a. Open the URL in a browser and follow the :guilabel:`Log in` flow.
+  When you login to `PodBrowser`_, you will be asked to authorize
+  "Inrupt PodBrowser". You must select all four check boxes. Click
+  :guilabel:`Authorize`. You are directed back to `PodBrowser`_. Login.
+  
+  If you did not provide all the access at this time, you can manually
+  add the access. For example, if your Pod's URL is
+  ``https://docs-example.inrupt.net/``:
 
-#. Once logged in, go to the :guilabel:`Preferences` tab.
+  a. Open the Pod's URL in a browser and follow the :guilabel:`Log in` flow.
 
-#. In the :guilabel:`Manage your trusted applications` section, add
-   PodBrowser to the table:
+  #. Once logged in, go to the :guilabel:`Preferences` tab.
 
-   .. list-table::
+  #. In the :guilabel:`Manage your trusted applications` section, add
+     PodBrowser to the table:
 
-      * - Application URL
+     .. list-table::
 
-        - Access modes
+        * - Application URL
 
-      * - ``https://podbrowser.inrupt.com``
+          - Access modes
 
-        - ``Read``, ``Write``, ``Append``, and ``Control``
+        * - ``https://podbrowser.inrupt.com``
 
-Once you provide PodBrowser with access, log into `PodBrowser`_ to
-manage your Pod.
+          - ``Read``, ``Write``, ``Append``, and ``Control``
+
+  Once you provide PodBrowser with access, log into `PodBrowser`_ to
+  manage your Pod.
 
 Issues & Help
 =============
