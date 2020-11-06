@@ -79,8 +79,8 @@ html_title = 'Inrupt {0}'.format(name)
 
 html_theme_options = {
     'project_title': 'Inrupt {0}'.format(name),
-    'banner': True,
-    'banner_msg': 'The product and documentation are currently in Beta. Content and features are subject to change.',
+    'banner': False,
+    'banner_msg': '',
     'robots_index': True,
     'github_editable': False,
     'ess_docs': 'https://docs.inrupt.com/ess/',
