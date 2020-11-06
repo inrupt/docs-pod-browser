@@ -2,6 +2,8 @@
 FAQ
 ===
 
+.. _faq-grant-access-manually:
+
 Why don't I have access to browse my Pod?
 =========================================
 
