@@ -18,6 +18,62 @@ With `Inrupt PodBrowser`_, you can
 
 - Manage access controls to your data.
 
+Browser Support
+===============
+
+`PodBrowser <https://podbrowser.inrupt.com>`_ supports the following
+browsers:
+
+The JavaScript Client Libraries support all modern web browsers on the
+latest 2 stable releases.
+
+Desktop
+-------
+
+.. list-table::
+   :header-rows: 1
+
+   * - Browser
+
+     - Version
+
+   * - Google Chrome
+
+     - Latest 2 stable releases
+
+   * - Mozilla Firefox
+
+     - Latest 2 stable releases
+
+   * - Microsoft Edge
+
+     - Latest 2 stable releases
+
+   * - Apple Safari
+
+     - Latest 2 stable releases
+
+Mobile
+------
+
+.. list-table::
+   :header-rows: 1
+
+   * - Browser
+
+     - Version
+
+   * - iOS/Safari
+
+     - Latest 2 stable releases
+
+   * - Android/Chrome
+
+     - Latest 2 stable releases
+
+   * - Android / Samsung Internet
+
+     - Latest 2 stable releases
 
 Prerequisites
 =============
