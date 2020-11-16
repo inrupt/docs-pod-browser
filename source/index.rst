@@ -21,11 +21,8 @@ With `Inrupt PodBrowser`_, you can
 Browser Support
 ===============
 
-`PodBrowser <https://podbrowser.inrupt.com>`_ supports the following
-browsers:
-
-The JavaScript Client Libraries support all modern web browsers on the
-latest 2 stable releases.
+`PodBrowser <https://podbrowser.inrupt.com>`_ supports the latest 2
+stable releases of the following:
 
 Desktop
 -------
