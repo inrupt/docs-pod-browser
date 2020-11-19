@@ -84,15 +84,6 @@ If your Pod is hosted on ``https://pod.inrupt.com``,
      access your Pod, you will be asked to authorize "Inrupt
      PodBrowser". Click :guilabel:`Authorize`.
 
-If your Pod is hosted on ``https://pod-compat.inrupt.com``,
-  #. For the ID Provider, enter ``https://broker.pod-compat.inrupt.com``.
-  
-  #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
- 
-  #. If you have not previously authorized PodBrowser to
-     access your Pod, you will be asked to authorize "Inrupt
-     PodBrowser". Click :guilabel:`Authorize`.
-
 If your Pod is hosted on ``https://inrupt.net``
    #. For the ID Provider, enter ``https://inrupt.net``.
   
