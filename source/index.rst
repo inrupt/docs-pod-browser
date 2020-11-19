@@ -76,7 +76,7 @@ Login and Authorization
 To login to `PodBrowser`_
 
 If your Pod is hosted on ``https://pod.inrupt.com``,
-  #. For the ID Provider, enter ``https://broker.pod.inrupt.com``.
+  #. For the ID Provider, enter ``https://broker.dev-ess.inrupt.com``.
   
   #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
