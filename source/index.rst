@@ -73,16 +73,14 @@ Mobile
 Login and Authorization
 =======================
 
-To login to `PodBrowser`_
-
 If your Pod is hosted on ``https://pod.inrupt.com``,
   #. For the ID Provider, enter ``https://broker.pod.inrupt.com``.
   
   #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
-  #. If you have not authorized PodBrowser to
-     access your Pod, you will be asked to authorize "Inrupt
-     PodBrowser". Click :guilabel:`Authorize`.
+  #. If you have not authorized PodBrowser for the access selected on
+     screen, you will be asked to authorize "Inrupt PodBrowser". Click
+     :guilabel:`Authorize`.
 
 If your Pod is hosted on ``https://inrupt.net``
    #. For the ID Provider, enter ``https://inrupt.net``.
