@@ -2,21 +2,64 @@
 Inrupt PodBrowser
 =================
 
-The `Inrupt PodBrowser <https://podbrowser.inrupt.com>`_ is an
+The Inrupt `PodBrowser <https://podbrowser.inrupt.com>`_ is an
 application for managing individual Solid Pods.
 
 Features
 ========
 
-With `Inrupt PodBrowser`_, you can
+With Inrupt `PodBrowser`_, you can
 
-- Navigate the contents of your Pod.
+- Manage your data.
 
-- Upload/Delete files.
+- Manage access control.
 
-- Create/Delete folders.
+- Manage contacts.
 
-- Manage access controls to your data.
+Login and Authorization
+=======================
+
+To access your Pod via `PodBrowser`_:
+
+If your Pod is hosted on ``https://pod.inrupt.com``,
+  #. For the ID Provider, enter ``https://broker.pod.inrupt.com``.
+  
+  #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
+ 
+  #. If you have not accepted the Inrupt Terms and Conditions and
+     authorized PodBrowser, the consent screen appears. To continue,
+     click :guilabel:`Authorize`.
+
+If your Pod is hosted on ``https://pod-compat.inrupt.com``,
+  #. For the ID Provider, enter ``https://broker.pod-compat.inrupt.com``.
+  
+  #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
+ 
+  #. If you have not accepted the Inrupt Terms and Conditions and
+     authorized PodBrowser, the consent screen appears. To continue,
+     click :guilabel:`Authorize`.
+
+If your Pod is hosted on ``https://inrupt.net``
+   #. For the ID Provider, enter ``https://inrupt.net``.
+  
+   #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
+ 
+   #. If you have not previously authorized PodBrowser to access your
+      Pod, you will be asked to authorize "Inrupt PodBrowser".
+      
+      a. You must select **all** four check boxes. 
+      
+      #. Click :guilabel:`Authorize`. You are directed back to
+         `PodBrowser`_. 
+         
+      #. Login to `PodBrowser`_.
+ 
+   If you did not select **all** four required access at this time, you
+   can manually grant PodBrowser the required access. For details, see
+   :ref:`faq-grant-access-manually`.
+
+For information on these Solid Servers, see `Inrupt Pod Spaces
+<https://docs.inrupt.com/pod-spaces>`_.
 
 Browser Support
 ===============
@@ -72,34 +115,6 @@ Mobile
 
      - Latest 2 stable releases
 
-Prerequisites
-=============
-
-You must provide `PodBrowser <https://podbrowser.inrupt.com>`_
-with ``Read``, ``Write``, ``Append``, and ``Control`` access to manage
-your Solid Pod. 
-
-For example, if your Pod's URL is ``https://docs-example.inrupt.net/``:
-
-a. Open the URL in a browser and follow the :guilabel:`Log in` flow.
-
-#. Once logged in, go to the :guilabel:`Preferences` tab.
-
-#. In the :guilabel:`Manage your trusted applications` section, add
-   PodBrowser to the table:
-
-   .. list-table::
-
-      * - Application URL
-
-        - Access modes
-
-      * - ``https://podbrowser.inrupt.com``
-
-        - ``Read``, ``Write``, ``Append``, and ``Control``
-
-Once you provide PodBrowser with access, log into `PodBrowser`_ to
-manage your Pod.
 
 Issues & Help
 =============
