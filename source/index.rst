@@ -16,6 +16,49 @@ With Inrupt `PodBrowser`_, you can
 
 - Manage contacts.
 
+Login and Authorization
+=======================
+
+If your Pod is hosted on ``https://pod.inrupt.com``,
+  #. For the ID Provider, enter ``https://broker.pod.inrupt.com``.
+  
+  #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
+ 
+  #. If you have not accepted the Inrupt Terms and Conditions and
+     authorized PodBrowser, the consent screen appears. To continue,
+     click :guilabel:`Authorize`.
+
+If your Pod is hosted on ``https://pod-compat.inrupt.com``,
+  #. For the ID Provider, enter ``https://broker.pod-compat.inrupt.com``.
+  
+  #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
+ 
+  #. If you have not accepted the Inrupt Terms and Conditions and
+     authorized PodBrowser, the consent screen appears. To continue,
+     click :guilabel:`Authorize`.
+
+If your Pod is hosted on ``https://inrupt.net``
+   #. For the ID Provider, enter ``https://inrupt.net``.
+  
+   #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
+ 
+   #. If you have not previously authorized PodBrowser to access your
+      Pod, you will be asked to authorize "Inrupt PodBrowser".
+      
+      a. You must select **all** four check boxes. 
+      
+      #. Click :guilabel:`Authorize`. You are directed back to
+         `PodBrowser`_. 
+         
+      #. Login to `PodBrowser`_.
+ 
+   If you did not select **all** four required access at this time, you
+   can manually grant PodBrowser the required access. For details, see
+   :ref:`faq-grant-access-manually`.
+
+For information on these Solid Servers, see `Inrupt Pod Spaces
+<https://docs.inrupt.com/pod-spaces>`_.
+
 Browser Support
 ===============
 
@@ -70,36 +113,6 @@ Mobile
 
      - Latest 2 stable releases
 
-Login and Authorization
-=======================
-
-If your Pod is hosted on ``https://pod.inrupt.com``,
-  #. For the ID Provider, enter ``https://broker.pod.inrupt.com``.
-  
-  #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
- 
-  #. If you have not authorized PodBrowser for the access selected on
-     screen, you will be asked to authorize "Inrupt PodBrowser". Click
-     :guilabel:`Authorize`.
-
-If your Pod is hosted on ``https://inrupt.net``
-   #. For the ID Provider, enter ``https://inrupt.net``.
-  
-   #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
- 
-   #. If you have not previously authorized PodBrowser to access your
-      Pod, you will be asked to authorize "Inrupt PodBrowser".
-      
-      a. You must select **all** four check boxes. 
-      
-      #. Click :guilabel:`Authorize`. You are directed back to
-         `PodBrowser`_. 
-         
-      #. Login to `PodBrowser`_.
- 
-   If you did not select **all** four required access at this time, you
-   can manually grant PodBrowser the required access. For details, see
-   :ref:`faq-grant-access-manually`.
 
 Issues & Help
 =============
