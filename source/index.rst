@@ -19,6 +19,8 @@ With Inrupt `PodBrowser`_, you can
 Login and Authorization
 =======================
 
+To access your Pod via `PodBrowser`_:
+
 If your Pod is hosted on ``https://pod.inrupt.com``,
   #. For the ID Provider, enter ``https://broker.pod.inrupt.com``.
   
