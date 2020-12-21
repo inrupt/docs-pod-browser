@@ -108,6 +108,7 @@ table.docutils td,
 table.docutils th {
   border-color: #ebebed;
   padding: 11px 5px 12px;
+  vertical-align: top;
 }
 
 /* Need to override theme's td white-space nowrap */
