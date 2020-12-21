@@ -48,6 +48,7 @@ extensions = [
     'sphinx_copybutton',
     'sphinx.ext.extlinks',
     'sphinx.ext.todo',
+    'sphinx_tabs.tabs',
 ]
 
 extlinks = {
