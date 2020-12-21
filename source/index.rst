@@ -73,56 +73,24 @@ Browser Support
 ===============
 
 `PodBrowser <https://podbrowser.inrupt.com>`_ supports the latest 2
-stable releases of the following:
-
-Desktop
--------
+stable releases of the following browsers:
 
 .. list-table::
-   :header-rows: 1
+   :widths: 45 55
+   :stub-columns: 1
 
-   * - Browser
+   * - Desktop
+   
+     - | Google Chrome
+       | Mozilla Firefox
+       | Microsoft Edge
+       | Apple Safari
 
-     - Version
+   * - Mobile
 
-   * - Google Chrome
-
-     - Latest 2 stable releases
-
-   * - Mozilla Firefox
-
-     - Latest 2 stable releases
-
-   * - Microsoft Edge
-
-     - Latest 2 stable releases
-
-   * - Apple Safari
-
-     - Latest 2 stable releases
-
-Mobile
-------
-
-.. list-table::
-   :header-rows: 1
-
-   * - Browser
-
-     - Version
-
-   * - iOS/Safari
-
-     - Latest 2 stable releases
-
-   * - Android/Chrome
-
-     - Latest 2 stable releases
-
-   * - Android / Samsung Internet
-
-     - Latest 2 stable releases
-
+     - | iOS/Safari
+       | Android/Chrome
+       | Android/Samsung Internet
 
 Issues & Help
 =============
