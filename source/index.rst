@@ -19,10 +19,12 @@ With Inrupt `PodBrowser`_, you can
 Login and Authorization
 =======================
 
-To access your Pod via `PodBrowser`_:
+To access your Pod via `PodBrowser`_, go to
+https://podbrowser.inrupt.com/login and log in with your Solid Identity
+Provider. For example:
 
 If your Pod is hosted on ``https://pod.inrupt.com``,
-  #. For the ID Provider, enter ``https://broker.pod.inrupt.com``.
+  #. For the Solid ID Provider, enter ``https://broker.pod.inrupt.com``.
   
   #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
@@ -30,17 +32,21 @@ If your Pod is hosted on ``https://pod.inrupt.com``,
      authorized PodBrowser, the consent screen appears. To continue,
      click :guilabel:`Authorize`.
 
+  (To sign up for a Pod on ``https://pod.inrupt.com``, go to https://signup.pod.inrupt.com/.)
+  
 If your Pod is hosted on ``https://pod-compat.inrupt.com``,
-  #. For the ID Provider, enter ``https://broker.pod-compat.inrupt.com``.
+  #. For the Solid ID Provider, enter ``https://broker.pod-compat.inrupt.com``.
   
   #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
   #. If you have not accepted the Inrupt Terms and Conditions and
      authorized PodBrowser, the consent screen appears. To continue,
      click :guilabel:`Authorize`.
+
+  (To sign up for a Pod on ``https://pod-compat.inrupt.com``, go to https://signup.pod-compat.inrupt.com/.)
 
 If your Pod is hosted on ``https://inrupt.net``
-   #. For the ID Provider, enter ``https://inrupt.net``.
+   #. For the Solid ID Provider, enter ``https://inrupt.net``.
   
    #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
@@ -57,6 +63,8 @@ If your Pod is hosted on ``https://inrupt.net``
    If you did not select **all** four required access at this time, you
    can manually grant PodBrowser the required access. For details, see
    :ref:`faq-grant-access-manually`.
+
+  (To sign up for a Pod on ``https://inrupt.net``, go to https://inrupt.net.)
 
 For information on these Solid Servers, see `Inrupt Pod Spaces
 <https://docs.inrupt.com/pod-spaces>`_.
