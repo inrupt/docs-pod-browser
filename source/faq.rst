@@ -66,9 +66,9 @@ directly by entering the Pod (or Container) URI.
 What do the Resource permissions mean?
 ======================================
 
-PodBrowser allows you to share Containers and Resources within your
-Pod with other Solid users. But what do the available permissions allow the other Solid users to do? 
-The table below describes the permissions which can be conbined together:
+You can share your Pod's Containers and Resources with other Solid users. 
+To share, you grant to the other users specific permission(s) for the Containers and Resources. 
+The following table describes the permissions; these permissions can be combined:
 
 .. list-table::
   :header-rows: 1
@@ -94,18 +94,20 @@ The table below describes the permissions which can be conbined together:
 
     - Change the permissions for a Resource.
       
-.. note:: To allow other Solid users to display the Resource details in PodBrowser, 
-  and hence access the Download and Delete options, they must have Read access to the Resource.
+.. note:: To allow other Solid users to display the Resource details 
+    (including the Download and Delete options) in PodBrowser, the 
+    users must have View access to the Resource.
 
 
 What is stored in ``/pb_policies``?
 ===================================
 
-When you access a Pod stored on an `Enterprise Solid Server`_ (e.g., https://pod.inrupt.com) using PodBrowser, 
-a new root Container ``/pb_policies`` is created to store `Access Control Policies`_, or 
-permissions, for Resources within the Pod.
+PodBrowser creates a new root Container ``/pb_policies`` within Pods stored on an 
+`Enterprise Solid Server`_ (e.g., `https://pod.inrupt.com`_) that uses `Access Control Policies`_. 
+The ``/pb_policies`` Container stores the policies (i.e., permissions) for the Resources within the Pod.
 
 .. _Enterprise Solid Server: https://docs.inrupt.com/ess/about/
+.. _https://pod.inrupt.com: https://signup.pod.inrupt.com
 .. _Access Control Policies: https://github.com/solid/authorization-panel/tree/master/proposals/acp
 
 .. warning:: Do not delete or edit any of the Resources stored in the ``/pb_policies`` Container 
