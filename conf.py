@@ -46,7 +46,6 @@ highlight_language = 'javascript'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_copybutton',
     'sphinx.ext.extlinks',
     'sphinx.ext.todo',
     'sphinx_tabs.tabs',

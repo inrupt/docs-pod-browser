@@ -48,13 +48,13 @@ This section is incomplete since work in progress - and so the dependencies may 
 Copyright (c) 2007-2020 by the Sphinx team (see AUTHORS file).
 All rights reserved.
 
-### sphinx-copybutton
+### sphinx-tabs
 
-The documentation uses [sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton), which is under the MIT License:
+The documentation uses [sphinx-tabs](https://github.com/djungelorm/sphinx-tabs), which is under the MIT License:
 
-MIT License
+The MIT License (MIT)
 
-Copyright (c) 2018 Chris Holdgraf
+Copyright (c) 2017 djungelorm
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
