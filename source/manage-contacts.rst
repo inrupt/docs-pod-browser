@@ -3,8 +3,7 @@ Manage Contacts: Contacts View
 ==============================
 
 To manage contacts in PodBrowser, switch to the :guilabel:`Contacts`
-view . To switch to the :guilabel:`Contacts` view, click on the
-Contacts icon on the top menu bar.
+view; i.e., click on the Contacts icon on the top menu bar.
 
 .. image:: /images/podbrowser-contacts-view.png
    :alt: PodBrowser Contacts View

@@ -15,11 +15,20 @@ The :guilabel:`Bookmarks` view displays your saved bookmarks.
 Save a Bookmark
 ===============
 
-To bookmark a file or a folder, switch to the :ref:`Files view
-<files-view-bookmark>` and selecting the star icon next to the folder
-or file.
+To bookmark a file or a folder or a Pod, switch to the :ref:`Files view
+<files-view-bookmark>`.
 
-You cannot add a bookmark in Bookmarks view.
+To bookmark a folder or a file:
+
+#. Select the star icon next to the folder or file. 
+
+To bookmark a Pod:
+
+#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+
+#. Select :guilabel:`Bookmark Pod`.
+
+You cannot add a bookmark in :guilabel:`Bookmarks` view.
 
 Remove a Bookmark
 =================

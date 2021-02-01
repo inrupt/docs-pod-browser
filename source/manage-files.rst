@@ -34,16 +34,28 @@ The contents of your Pod have the following type:
 Navigate the Pod
 ================
 
-In the :guilabel:`Files` view, click on a folder to navigate
-into the folder.
+In the :guilabel:`Files` view, click on a folder to navigate into the
+folder.
+
+Alternatively, you can go directly to a folder:
+
+#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+
+#. Select :guilabel:`-> Change Pod`.
+
+#. Enter the URI of a folder. You must include specify the full URL,
+   including the protocol ``https:// ...``.
+
+#. Click :guilabel:`Go`.
 
 .. _view-details:
 
 View Details of Folders and Files
 =================================
 
-To view the details of a folder,
-   Go to the specific folder and click :guilabel:`Folder
+To view the details of a folder:
+
+#. Go to the specific folder and click :guilabel:`Folder
    Details` to open a Details view. The Details view provides
    information about the current folder you are browsing.
 
@@ -54,7 +66,7 @@ To view the details of a folder,
       :alt: Details of the profile Folder/Container
       :width: 650px
 
-   From the folder's Details view:
+#. From the folder's Details view:
 
    - You can :ref:`Delete <delete>` the folder.
 
@@ -62,8 +74,9 @@ To view the details of a folder,
 
    - You can modify the :ref:`Permissions <modify-permissions>` to the folder.
 
-To view the details of a file/Resource,
-   Click on the file to open a Details view. The Details view
+To view the details of a file/Resource:
+
+#. Click on the file to open a Details view. The Details view
    provides information about the current selected file. For example,
    the following image displays the details for the file named
    ``card``:
@@ -72,7 +85,7 @@ To view the details of a file/Resource,
       :alt: Details of a file named card
       :width: 650px
 
-   From the file's Details view:
+#. From the file's Details view:
 
    - You can :ref:`Download <download>` the file.
 
@@ -80,7 +93,7 @@ To view the details of a file/Resource,
 
    - You can view its Details.
 
-   - You can modify the Permissions/Access to the File.
+   - You can modify the :ref:`Permissions <modify-permissions>` to the File.
 
 .. _delete:
 
@@ -177,14 +190,50 @@ To upload a file to the current folder:
 
 #. Select the file to upload.
 
+Switch Pod
+==========
+
+To switch to another Pod:
+
+#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+
+#. Select :guilabel:`-> Change Pod`.
+
+#. Enter the Pod URI (or the URI of a folder in the Pod). You must
+   include specify the full URL, including the protocol ``https:// ...``.
+
+#. Click :guilabel:`Go`.
+
 .. _files-view-bookmark:
 
-Bookmark Files and Folders
-==========================
+Bookmark Files and Folders and Pods
+===================================
 
-From the Files view, you can bookmark a folder or a file by selecting
-the star icon next to the folder or file. To remove the folder or file
-from your bookmarks, deselect the star icon.
+Bookmark Files and Folders
+--------------------------
+
+To bookmark a folder or a file:
+
+#. Select the star icon next to the folder or file. 
+
+To remove the folder or file from your bookmarks:
+
+#. Deselect the star icon.
+
+Bookmark a Pod
+--------------
+
+To bookmark the current Pod:
+
+#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+
+#. Select :guilabel:`Bookmark Pod`.
+
+To remove a Pod from your bookmarks:
+
+#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+
+#. Select :guilabel:`Remove Pod Bookmark`.
 
 You can view your saved Bookmarks in :doc:`Bookmarks View
 </manage-bookmarks>`.
