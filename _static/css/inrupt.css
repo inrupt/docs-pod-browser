@@ -213,6 +213,7 @@ p.topic-title {
 .sphinx-tabs-tab {
    padding: 1rem 1rem;
    line-height: 1rem;
+   font-family: "Lato", Open Sans, sans-serif;
 }
 
 @media (min-width: 992px) {
