@@ -1,5 +1,5 @@
 # pip install -r requirements.txt
 
-sphinx-tabs==v1.3.0
+sphinx-tabs
 pydata-sphinx-theme
 Sphinx

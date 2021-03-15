@@ -51,6 +51,10 @@ extensions = [
     'sphinx_tabs.tabs',
 ]
 
+# Staring in 2.0, sphinx_tabs collapses when double-clicked
+# Disabling the collapse behavior
+
+sphinx_tabs_disable_tab_closing = True 
 extlinks = {
 }
 
