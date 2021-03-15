@@ -216,6 +216,62 @@ p.topic-title {
    font-family: "Lato", Open Sans, sans-serif;
 }
 
+/* Override pydata-sphinx-theme css for admonitions */
+
+.admonition {
+   border-color: #ffc107
+}
+.admonition .admonition-title {
+   background-color: #fff6dd;
+}
+.admonition .admonition-title::before {
+   color: #007bff;
+}
+
+
+.admonition.tip {
+   border-color: #007bff;
+}
+.admonition.tip .admonition-title::before {
+   color: #007bff;
+}
+.admonition.tip .admonition-title {
+   background-color: #e7f2fa;
+}
+
+
+.admonition.note {
+   border-color: #007bff;
+}
+.admonition.note .admonition-title::before {
+   color: #007bff;
+}
+.admonition.note .admonition-title {
+   background-color: #e7f2fa;
+}
+
+
+.admonition.important {
+   border-color: #ffc107;
+}
+.admonition.important .admonition-title::before {
+   color: #ffc107;
+}
+.admonition.important .admonition-title {
+   background-color: #fff0c0;
+}
+
+.admonition.warning {
+   border-color: #dc3545;
+}
+.admonition.warning .admonition-title::before {
+   color: #dc3545;
+}
+.admonition.warning .admonition-title {
+   background-color: #fdf3f2;
+}
+
+
 @media (min-width: 992px) {
    .navbar-expand-lg .navbar-nav .nav-link {
       padding-right: 1rem;
