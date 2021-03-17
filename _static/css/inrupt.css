@@ -214,6 +214,7 @@ p.topic-title {
    padding: 1rem 1rem;
    line-height: 1rem;
    font-family: "Lato", Open Sans, sans-serif;
+   font-size: 14px;
 }
 
 /* Override pydata-sphinx-theme css for admonitions */
@@ -277,4 +278,12 @@ p.topic-title {
       padding-right: 1rem;
       padding-left: 1rem;
    }
+}
+
+
+/* Override pydata-sphinx-theme css for guilabel */
+
+span.guilabel {
+   padding: 2px;
+   border: none;
 }
