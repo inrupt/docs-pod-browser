@@ -2,55 +2,63 @@
 Login and Authorization
 =======================
 
-To access your Pod via `PodBrowser <https://podbrowser.inrupt.com>`_,
+To access your Pod via `PodBrowser <https://podbrowser.inrupt.com/login>`_,
 
 #. Go to https://podbrowser.inrupt.com/login in a Web browser.
 
-#. Select or enter your Solid Identity Provider and click :guilabel:`Log In`.
+#. If your Pod is hosted on ``pod.inrupt.com``, click :guilabel:`Sign
+   In`.
+
+   If your Pod is hosted elsewhere (such as ``pod-compat.inrupt.com``
+   or ``inrupt.net``), click :guilabel:`Sign in with other provider`,
+   enter you Provider, and click :guilabel:`Go`.
 
 #. Log in to your Solid Identity Provider.
 
+#. The consent screen appears. To continue, click :guilabel:`Approve`
+   to authorize PodBrowser.
+
 .. image:: /images/podbrowser-pod-inrupt-com.png
    :alt: PodBrowser Log In Screen
+   :width: 400px
+   :target: https://podbrowser.inrupt.com/login
 
 Examples
 ========
-
-If your Pod is hosted on one of the `Inrupt Pod Spaces
-<https://docs.inrupt.com/pod-spaces>`_, click on the corresponding tab
-for an example.
 
 .. tabs::
 
    .. tab:: ``pod.inrupt.com``
    
-      #. For the Solid ID Provider, enter ``https://broker.pod.inrupt.com`` and click :guilabel:`Log In`.
+      #. Click :guilabel:`Sign In`.
   
-      #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
+      #. Enter your :guilabel:`Username` and :guilabel:`Password` and :guilabel:`Sign In`.
  
-      #. The consent screen appears. To continue,
-         click :guilabel:`Authorize` to accept the Inrupt Terms and Conditions and
-         authorize PodBrowser.
+      #. The consent screen appears. To continue, click
+         :guilabel:`Approve` to authorize PodBrowser.
 
-      ➢ To sign up for a Pod on ``https://pod.inrupt.com``, go to
+      To sign up for a Pod on ``https://pod.inrupt.com``, go to
       https://signup.pod.inrupt.com/.
 
    .. tab:: ``pod-compat.inrupt.com``
-  
-      #. For the Solid ID Provider, enter ``https://broker.pod-compat.inrupt.com`` and click :guilabel:`Log In`.
-  
+
+      #. Click :guilabel:`Sign in with other provider`.
+
+      #. Enter ``https://broker.pod-compat.inrupt.com`` and click :guilabel:`Go`.
+
       #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
       #. The consent screen appears. To continue,
-         click :guilabel:`Authorize` to accept the Inrupt Terms and Conditions and
-         authorize PodBrowser.
+         click :guilabel:`Approve` to authorize PodBrowser.
 
-      ➢ To sign up for a Pod on ``https://pod-compat.inrupt.com``, go to
+      To sign up for a Pod on ``https://pod-compat.inrupt.com``, go to
       https://signup.pod-compat.inrupt.com/.
 
    .. tab:: ``inrupt.net``
 
-      #. For the Solid ID Provider, enter ``https://inrupt.net`` and click :guilabel:`Log In`.
+      #. Click :guilabel:`Sign in with other provider`.
+      
+      #. Select or enter ``https://inrupt.net`` and click :guilabel:`Go`.
   
       #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
@@ -68,7 +76,8 @@ for an example.
          time, you can manually grant PodBrowser the required access.
          For details, see :ref:`faq-grant-access-manually`.
 
-       ➢ To sign up for a Pod on ``https://inrupt.net``, go to
+       To sign up for a Pod on ``https://inrupt.net``, go to
        https://inrupt.net.
 
-For information on these Solid Servers, see `Inrupt Pod Spaces`_.
+For information on these Solid Servers, see `Inrupt Pod Spaces
+<https://docs.inrupt.com/pod-spaces>`_.

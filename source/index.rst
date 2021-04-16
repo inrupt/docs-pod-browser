@@ -5,6 +5,11 @@ Inrupt PodBrowser
 The Inrupt `PodBrowser <https://podbrowser.inrupt.com>`_ is an
 application for managing individual Solid Pods.
 
+.. image:: /images/podbrowser-pod-inrupt-com.png
+   :alt: PodBrowser Log In Screen
+   :width: 400px
+   :target: https://podbrowser.inrupt.com/login
+
 Features
 ========
 

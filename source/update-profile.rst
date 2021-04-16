@@ -2,9 +2,14 @@
 Update Profile
 ==============
 
-To update your Profile in PodBrowser, open the Profile form. To open
-the Profile form, move your mouse over the person icon and
-click :guilabel:`Profile`.
+View Profile
+============
+
+To view your Profile in PodBrowser, open the Profile form:
+
+#. Click on your icon/name in the upper right hand corner.
+
+#. In the drop down menu, click :guilabel:`Profile`.
 
 .. image:: /images/podbrowser-profile.png
    :alt: PodBrowser Profile
