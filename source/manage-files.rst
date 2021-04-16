@@ -3,13 +3,14 @@ Manage Data: Files View
 =======================
 
 To manage the files in a Pod, go to :guilabel:`Files` view in
-PodBrowser. The :guilabel:`Files` view is the default view, but you can
-also switch to the :guilabel:`Files` view by clicking on the Files icon
-on the top menu bar.
+PodBrowser; i.e., click on :guilabel:`Files` on the top menu bar.
 
 .. image:: /images/podbrowser-files-view.png
    :alt: PodBrowser Files View
    :width: 600px
+
+Files View
+==========
 
 The :guilabel:`Files` view displays the contents of your Pod.
 The contents of your Pod have the following type:
@@ -39,7 +40,7 @@ folder.
 
 Alternatively, you can go directly to a folder:
 
-#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+#. Click on the :guilabel:`Your Pod` on the top right-hand side.
 
 #. Select :guilabel:`-> Change Pod`.
 
@@ -59,31 +60,19 @@ To view the details of a folder:
    Details` to open a Details view. The Details view provides
    information about the current folder you are browsing.
 
-   For example, the following image displays the details for the
-   folder named ``profile``:
-
-   .. image:: /images/podbrowser-folder-details.png
-      :alt: Details of the profile Folder/Container
-      :width: 650px
-
 #. From the folder's Details view:
 
    - You can :ref:`Delete <delete>` the folder.
 
    - You can view its Details.
 
-   - You can modify the :ref:`Permissions <modify-permissions>` to the folder.
+   - You can modify the :ref:`Sharing <modify-permissions>` permissions
+     for the folder.
 
 To view the details of a file/Resource:
 
 #. Click on the file to open a Details view. The Details view
-   provides information about the current selected file. For example,
-   the following image displays the details for the file named
-   ``card``:
-
-   .. image:: /images/podbrowser-resource-details.png
-      :alt: Details of a file named card
-      :width: 650px
+   provides information about the current selected file.
 
 #. From the file's Details view:
 
@@ -93,7 +82,8 @@ To view the details of a file/Resource:
 
    - You can view its Details.
 
-   - You can modify the :ref:`Permissions <modify-permissions>` to the File.
+   - You can modify the :ref:`Sharing <modify-permissions>` permissions
+     for the File.
 
 .. _delete:
 
@@ -143,39 +133,26 @@ You can modify the access permissions for a folder or a file from its
 
    - For a file, select the file. This opens its Details View.
 
-#. From the Details view, click :guilabel:`Permissions` to expand the
-   panel.
+#. From the Details view, click :guilabel:`Sharing` to expand the
+   panel. You can:
 
-   - To grant access to a new individual, 
+   - Manage Editors (:guilabel:`+ Edit Editors`), 
 
-     a. Click :guilabel:`Add with WebID`.
+   - Manage Viewers (:guilabel:`+ Edit Viewers`), or 
 
-     #. Enter the individual's WebID. You must include specify the full
-        URL, including the protocol ``https:// ...``.
+   - Specify Advanced Sharing.
 
-     #. Expand the access modes by clicking on the Access Modes caret (``v``).
-
-     #. Select the access modes to grant.
-
-     #. Click :guilabel:`Add`.
-
-   - To modify existing access for an individual,
+   .. tip::
    
-     a. Expand the individual's access modes by clicking on the associated
-        Access Modes caret (``v``).
-     
-        - To revoke an access mode, deselect the access mode to revoke.
-
-        - To grant an access mode, select the access mode to grant.
-
-     #. Click :guilabel:`SAVE`.
+      When adding a new WebID for sharing, you must include specify the
+      full URL, including the protocol ``https:// ...``.
 
 Create Folder
 =============
 
 To create a folder in the current folder:
 
-#. Click on the :guilabel:`Create File` link.
+#. Click on the :guilabel:`Create Folder` link.
 
 #. Enter in the folder's name.
 
@@ -195,7 +172,7 @@ Switch Pod
 
 To switch to another Pod:
 
-#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+#. Click on the :guilabel:`Your Pod` dropdown on the top right-hand side.
 
 #. Select :guilabel:`-> Change Pod`.
 
@@ -225,13 +202,13 @@ Bookmark a Pod
 
 To bookmark the current Pod:
 
-#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+#. Click on the :guilabel:`Your Pod` dropdown on the top right-hand side.
 
 #. Select :guilabel:`Bookmark Pod`.
 
 To remove a Pod from your bookmarks:
 
-#. Click on the :guilabel:`Pod` indicator dropdown on the top left-hand side.
+#. Click on the :guilabel:`Your Pod` dropdown on the top right-hand side.
 
 #. Select :guilabel:`Remove Pod Bookmark`.
 

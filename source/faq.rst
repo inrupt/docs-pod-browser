@@ -23,9 +23,9 @@ To adjust PodBrowser's access:
 
 #. In the :guilabel:`Manage your trusted applications` section:
 
-  * If PodBrowser is not listed as a trusted application:
+   | If PodBrowser is not listed as a trusted application:
   
-    #. At the bottom of the table enter:
+     #. At the bottom of the table enter:
 
         .. list-table::
           :header-rows: 1
@@ -38,11 +38,11 @@ To adjust PodBrowser's access:
 
             - ``Read``, ``Write``, ``Append``, and ``Control``
     
-    #. Click :guilabel:`Add`.
+     #. Click :guilabel:`Add`.
 
-  * If PodBrowser is listed as a trusted application but with the
-      wrong access, select all of the access modes and click
-      :guilabel:`Update`.
+   | If PodBrowser is listed as a trusted application but with the
+     wrong access, select all of the access modes and click
+     :guilabel:`Update`.
 
 .. _`Solid Data Browser`: https://github.com/solid/userguide#data-browser-user-guide
 
@@ -53,7 +53,7 @@ How do I navigate to another Pod?
 To browse another Pod (or even a different Container in your own Pod), you can navigate there 
 directly by entering the Pod (or Container) URI.
 
-#. In PodBrowser, click the current :guilabel:`Pod` identifier link (just below the Account menu).
+#. In PodBrowser, click the :guilabel:`Your Pod` dropdown on the top right-hand side.
 
 #. Select :guilabel:`Change Pod` in the menu.
 
