@@ -1,6 +1,6 @@
-=======================
-Login and Authorization
-=======================
+=====
+Login
+=====
 
 To access your Pod via `PodBrowser <https://podbrowser.inrupt.com/login>`_,
 
@@ -16,7 +16,7 @@ To access your Pod via `PodBrowser <https://podbrowser.inrupt.com/login>`_,
 #. Log in to your Solid Identity Provider.
 
 #. The consent screen appears. To continue, click :guilabel:`Approve`
-   to authorize PodBrowser.
+   to approve access to the requested information.
 
 .. image:: /images/podbrowser-pod-inrupt-com.png
    :alt: PodBrowser Log In Screen
@@ -35,7 +35,7 @@ Examples
       #. Enter your :guilabel:`Username` and :guilabel:`Password` and :guilabel:`Sign In`.
  
       #. The consent screen appears. To continue, click
-         :guilabel:`Approve` to authorize PodBrowser.
+         :guilabel:`Approve` to approve access to the requested information.
 
       To sign up for a Pod on ``https://pod.inrupt.com``, go to
       https://signup.pod.inrupt.com/.
@@ -48,8 +48,8 @@ Examples
 
       #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
  
-      #. The consent screen appears. To continue,
-         click :guilabel:`Approve` to authorize PodBrowser.
+      #. The consent screen appears. To continue, click
+         :guilabel:`Approve` to approve access to the requested information.
 
       To sign up for a Pod on ``https://pod-compat.inrupt.com``, go to
       https://signup.pod-compat.inrupt.com/.
@@ -69,8 +69,6 @@ Examples
        
          #. Click :guilabel:`Authorize`. You are directed back to
             `PodBrowser`_. 
-         
-         #. Login to `PodBrowser`_.
 
          If you did not select **all** four required access at this
          time, you can manually grant PodBrowser the required access.
