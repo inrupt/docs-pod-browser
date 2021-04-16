@@ -11,7 +11,7 @@ To access your Pod via `PodBrowser <https://podbrowser.inrupt.com/login>`_,
 
    If your Pod is hosted elsewhere (such as ``pod-compat.inrupt.com``
    or ``inrupt.net``), click :guilabel:`Sign in with other provider`,
-   enter you Provider, and click :guilabel:`Go`.
+   enter your Provider, and click :guilabel:`Go`.
 
 #. Log in to your Solid Identity Provider.
 

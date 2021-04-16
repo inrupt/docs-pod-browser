@@ -13,7 +13,7 @@ must be added as a trusted application with ``Read``, ``Write``,
 
 To adjust PodBrowser's access:
 
-#. In a web browser, enter the root URL to you Pod (e.g., https://docs-example.inrupt.net). 
+#. In a web browser, enter the root URL to your Pod (e.g., https://docs-example.inrupt.net). 
 
 #. The `Solid Data Browser`_ should be opened.
 
