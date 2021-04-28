@@ -48,5 +48,5 @@ When finished, can deactivate your virtual env.
 ## Third Party Licenses
 
 The ``requirements.txt`` lists the 3rd party libraries used. For the
-licenses, see the submodule docs-assets.
+licenses, see the submodule [inrupt/docs-assets](https://github.com/inrupt/docs-assets#readme).
 
