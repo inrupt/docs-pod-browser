@@ -9,14 +9,12 @@ GIT_BRANCH    :=$(shell git rev-parse --abbrev-ref HEAD)
 BUILDDIR      = build/${GIT_BRANCH}
 SPHINXOPTS    = -d $(BUILDDIR)/doctrees -W -c .
 SOURCECOPYDIR = $(BUILDDIR)/source/
-APPS_PATH     = $(SOURCEDIR)/apps
-TOKEN         = 
 
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help clean Makefile migrate html linkcheck dirhtml apps
+.PHONY: help clean Makefile migrate html linkcheck dirhtml submodules
 
 clean:
 	if [ -d $(BUILDDIR) ]; then rm -rf $(BUILDDIR) ; fi;
@@ -32,17 +30,20 @@ migrate: clean
 
 	cp -R $(SOURCEDIR)/* $(SOURCECOPYDIR)
 
-html: Makefile migrate apps
+submodules:
+	git submodule update --remote
+	
+html: Makefile migrate submodules
 
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) 
 
-dirhtml: Makefile  migrate  apps
+dirhtml: Makefile  migrate  submodules
 
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile migrate
+%: Makefile migrate submodules
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 
