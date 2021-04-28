@@ -15,17 +15,23 @@ To build:
    source <path to the new virtual environment>/bin/activate
    ```
 
-2. Go to the cloned repo directory:
+1. Go to the cloned repo directory:
 
    cd <cloned repo dir>
 
-3. Install the docs requirements (different from API docs requirements):
+1. Install the docs requirements (different from API docs requirements):
 
    ```sh
    pip install -r requirements.txt
    ```
 
-4. Make the docs.
+1. Init submodule if you have not.
+
+   ```sh
+   git submodule init
+   ```
+   
+1. Make the docs. The makefile updates the submodule as part of the build.
 
    ```sh
    make dirhtml
