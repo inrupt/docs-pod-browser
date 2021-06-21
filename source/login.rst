@@ -9,9 +9,9 @@ To access your Pod via `PodBrowser <https://podbrowser.inrupt.com/login>`_,
 #. If your Pod is hosted on ``pod.inrupt.com``, click :guilabel:`Sign
    In`.
 
-   If your Pod is hosted elsewhere (such as ``pod-compat.inrupt.com``
-   or ``inrupt.net``), click :guilabel:`Sign in with other provider`,
-   enter your Provider, and click :guilabel:`Go`.
+   If your Pod is hosted elsewhere (such as ``inrupt.net``), click
+   :guilabel:`Sign in with other provider`, enter your Provider, and
+   click :guilabel:`Go`.
 
 #. Log in to your Solid Identity Provider.
 
@@ -39,20 +39,6 @@ Examples
 
       To sign up for a Pod on ``https://pod.inrupt.com``, go to
       https://signup.pod.inrupt.com/.
-
-   .. tab:: ``pod-compat.inrupt.com``
-
-      #. Click :guilabel:`Sign in with other provider`.
-
-      #. Enter ``https://broker.pod-compat.inrupt.com`` and click :guilabel:`Go`.
-
-      #. Enter your :guilabel:`Username` and :guilabel:`Password` and login.
- 
-      #. The consent screen appears. To continue, click
-         :guilabel:`Approve` to approve access to the requested information.
-
-      To sign up for a Pod on ``https://pod-compat.inrupt.com``, go to
-      https://signup.pod-compat.inrupt.com/.
 
    .. tab:: ``inrupt.net``
 
