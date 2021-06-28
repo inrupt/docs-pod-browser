@@ -1,0 +1,1 @@
+pod-spaces/getting-started-pod-compat-inrupt-com/index.html -> pod-spaces/getting-started-pod-inrupt-com/
