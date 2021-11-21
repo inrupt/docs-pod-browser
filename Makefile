@@ -28,7 +28,7 @@ linkcheck: Makefile migrate
 migrate: clean
 	mkdir -p $(SOURCECOPYDIR)
 
-	git clone https://github.com/inrupt/docs-assets.git $(DOCS_ASSETS)
+	git clone -b upcoming --single-branch clone https://github.com/inrupt/docs-assets.git $(DOCS_ASSETS)
 
    # Copying to SOURCECOPYDIR instead of copying source dir to BUILDDIR
    # in case someone forgets to backslash after build/

@@ -88,9 +88,9 @@ html_theme_options = {
     'project_title': 'Inrupt {0}'.format(name),
     'banner': False,
     'banner_msg': '',
-    'robots_index': True,
+    'robots_index': False,
     'github_editable': False,
-    'docs_project': 'user-interface/podbrowser',
+    'docs_project': 'user-interface/podbrowser-upcoming',
     
     # below are pydata_sphinx_theme
     "footer_items": [ "copyright.html"],
