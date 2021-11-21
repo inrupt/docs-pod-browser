@@ -87,7 +87,7 @@ html_title = 'Inrupt {0}'.format(name)
 html_theme_options = {
     'project_title': 'Inrupt {0}'.format(name),
     'banner': False,
-    'banner_msg': '',
+    'banner_msg': 'The 1.2-compatible features and documentation are currently in Alpha. Features and documentation are subject to change.',
     'robots_index': False,
     'github_editable': False,
     'docs_project': 'user-interface/podbrowser-upcoming',
