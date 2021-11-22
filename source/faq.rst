@@ -13,9 +13,10 @@ must be added as a trusted application with ``Read``, ``Write``,
 
 To adjust PodBrowser's access:
 
-#. In a web browser, enter the root URL to your Pod (e.g., https://docs-example.inrupt.net). 
-
-#. The `Solid Data Browser`_ should be opened.
+#. In a web browser, enter the root URL to your Pod (e.g.,
+   https://docs-example.inrupt.net).
+   
+   The browser should open to the `SolidOS`_.
 
 #. Click the :guilabel:`Log In` button to log into your Pod.
 
@@ -44,7 +45,7 @@ To adjust PodBrowser's access:
      wrong access, select all of the access modes and click
      :guilabel:`Update`.
 
-.. _`Solid Data Browser`: https://github.com/solid/userguide#data-browser-user-guide
+.. _`SolidOS`: https://github.com/solid/userguide/blob/main/README.md
 
 
 How do I navigate to another Pod?
@@ -99,16 +100,3 @@ The following table describes the permissions; these permissions can be combined
     users must have View access to the Resource.
 
 
-What is stored in ``/pb_policies``?
-===================================
-
-PodBrowser creates a new root Container ``/pb_policies`` within Pods stored on an 
-`Enterprise Solid Server`_ (e.g., `https://pod.inrupt.com`_) that uses `Access Control Policies`_. 
-The ``/pb_policies`` Container stores the policies (i.e., permissions) for the Resources within the Pod.
-
-.. _Enterprise Solid Server: https://docs.inrupt.com/ess/about/
-.. _https://pod.inrupt.com: https://signup.pod.inrupt.com
-.. _Access Control Policies: https://github.com/solid/authorization-panel/tree/master/proposals/acp
-
-.. warning:: Do not delete or edit any of the Resources stored in the ``/pb_policies`` Container 
-  as this could affect permissions to Resources within the Pod.
