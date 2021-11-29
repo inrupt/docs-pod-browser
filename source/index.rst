@@ -13,6 +13,12 @@ application for managing individual Solid Pods.
 Features
 ========
 
+.. admonition:: 1.2 Alpha
+
+   This version of the manual is available as a work in progress. For
+   1.2 Alpha VC-based access management support, see
+   :doc:`/manage-vc-based-access`.
+
 With Inrupt `PodBrowser`_, you can
 
 - Manage your data.
