@@ -46,5 +46,5 @@ Examples
          :guilabel:`Allow` to allow PodBrowser access to the requested information.
 
 
-For information on these Solid Servers, see `Inrupt Pod Spaces
+For information on these Solid Servers, see `Inrupt PodSpaces
 <https://docs.inrupt.com/pod-spaces-upcoming>`_.
