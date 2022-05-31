@@ -47,4 +47,4 @@ Examples
 
 
 For information on these Solid Servers, see `Inrupt PodSpaces
-<https://docs.inrupt.com/pod-spaces-upcoming>`_.
+<https://docs.inrupt.com/pod-spaces>`_.

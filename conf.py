@@ -86,11 +86,11 @@ html_title = 'Inrupt {0}'.format(name)
 
 html_theme_options = {
     'project_title': 'Inrupt {0}'.format(name),
-    'banner': True,
-    'banner_msg': 'The 1.2-compatible features and documentation are currently in Alpha. Features and documentation are subject to change.',
-    'robots_index': False,
+    'banner': False,
+    'banner_msg': '',
+    'robots_index': True,
     'github_editable': False,
-    'docs_project': 'user-interface/podbrowser-upcoming',
+    'docs_project': 'user-interface/podbrowser',
     
     # below are pydata_sphinx_theme
     "footer_items": [ "copyright.html"],
