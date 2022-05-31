@@ -77,7 +77,7 @@ Issues & Help
    /login
    /update-profile
    /manage-files
-   /manage-vc-based-access
+   /manage-access-requests-grants
    /manage-contacts
    /manage-bookmarks
    /faq
