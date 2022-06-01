@@ -1,6 +1,6 @@
-======================
-Manage VC-Based Access
-======================
+=================================
+Manage Access Requests and Grants
+=================================
 
 .. admonition:: Alpha Release
 
