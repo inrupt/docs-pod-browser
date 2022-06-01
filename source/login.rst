@@ -8,6 +8,12 @@ To access your Pod via `PodBrowser <https://podbrowser.inrupt.com/login>`_,
 
 #. Log in to your Solid Identity Provider.
 
+   - If your Pod is hosted on `Inrupt PodSpaces
+     <https://docs.inrupt.com/pod-spaces>`_, click :guilabel:`Sign In`.
+
+   - If your Pod is hosted elsewhere, click :guilabel:`Sign in with
+     other provider`, enter your `Provider`, and click :guilabel:`Go`.
+
    See :ref:`login-examples`.
 
 .. image:: /images/podbrowser-pod-inrupt-com.png
@@ -17,8 +23,14 @@ To access your Pod via `PodBrowser <https://podbrowser.inrupt.com/login>`_,
 
 .. _login-examples:
 
-Examples
-========
+Example
+=======
+
+To sign into `Inrupt PodSpaces <https://docs.inrupt.com/pod-spaces>`_:
+
+.. note::
+
+   PodSpaces currently uses version 1.1 of ESS.
 
 #. Click :guilabel:`Sign In`.
 
@@ -29,3 +41,5 @@ Examples
 
 See also `Inrupt PodSpaces
 <https://docs.inrupt.com/pod-spaces>`_.
+
+   
