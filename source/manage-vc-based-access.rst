@@ -45,29 +45,19 @@ request with modifications:
  
   #. Click :guilabel:`Confirm access`.
 
-View Access Request Details
-===========================
-
-.. image:: /images/podbrowser-vc-access-details-view.png
-   :alt: PodBrowser View VC-based Access Details
-   :width: 600px
-
-PodBrowser's displays the VC-based access information for a file or
-folder in the :guilabel:`Sharing` panel of the :ref:`Details view
-<view-details>`.
-
 .. _vc-access-details:
 
-View VC-Based Access Details
-============================
+View Access Grant Details
+=========================
 
 .. image:: /images/podbrowser-vc-access-details-view.png
-   :alt: PodBrowser View VC-based Access Details
+   :alt: PodBrowser View Access Grants Details
    :width: 600px
 
-PodBrowser's displays the VC-based access information for a file or
+PodBrowser's displays the Access Grant information for a file or
 folder in the :guilabel:`Sharing` panel of the :ref:`Details view
 <view-details>`.
+
 
 #. Click on the vertical dots.
 
