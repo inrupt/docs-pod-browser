@@ -48,7 +48,6 @@ highlight_language = 'javascript'
 extensions = [
     'sphinx.ext.extlinks',
     'sphinx.ext.todo',
-    'sphinx_tabs.tabs',
 ]
 
 # Staring in 2.0, sphinx_tabs collapses when double-clicked
