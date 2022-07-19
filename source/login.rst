@@ -28,10 +28,6 @@ Example
 
 To sign into `Inrupt PodSpaces <https://docs.inrupt.com/pod-spaces>`_:
 
-.. note::
-
-   PodSpaces currently uses version 1.1 of ESS.
-
 #. Click :guilabel:`Sign In`.
 
 #. Enter your :guilabel:`Username` and :guilabel:`Password` and :guilabel:`Sign In`.
