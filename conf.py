@@ -79,6 +79,8 @@ html_copy_source = False
 
 html_title = 'Inrupt {0}'.format(name)
 
+html_favicon = "https://docs.inrupt.com/inrupt_stickers_v2-03.png"
+
 # These theme options are declared in ./themes/inrupt/theme.conf
 # as well as some for pydata_sphinx_theme
 
@@ -124,12 +126,17 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['./build/docs-assets/_static']
+html_css_files = [
+    'css/inrupt.css',
+]
 
 html_sidebars = {
     '**': [ 'search-field.html',  'docs-sidebar.html'],
 }
 
-
+html_context = {
+   "default_mode": "auto"
+}
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
