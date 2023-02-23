@@ -88,7 +88,7 @@ html_favicon = "https://docs.inrupt.com/inrupt_stickers_v2-03.png"
 html_theme_options = {
     'project_title': 'Inrupt {0}'.format(name),
     'banner': True,
-    'banner_msg': 'PodBrowser has been deprecated as of Feb 20, 2023.',
+    'banner_msg': 'PodBrowser has been deprecated as of Feb 23, 2023.',
     'robots_index': True,
     'github_editable': False,
     'docs_project': 'user-interface/podbrowser',
