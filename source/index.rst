@@ -50,10 +50,6 @@ Issues & Help
 .. list-table::
 
    * - Bugs and Feature Requests (Product)
-          For public feedback, bug reports, and feature requests,
-          please file an issue via `GitHub
-          <https://github.com/inrupt/pod-browser>`__.
-
           For non-public feedback or support inquiries, please use the
           `Inrupt Service Desk
           <https://inrupt.atlassian.net/servicedesk>`_.
