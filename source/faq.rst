@@ -2,52 +2,6 @@
 FAQ
 ===
 
-.. _faq-grant-access-manually:
-
-Why don't I have access to browse my Pod?
-=========================================
-
-To manage your Pod hosted by ``https://inrupt.net``, PodBrowser
-must be added as a trusted application with ``Read``, ``Write``,
-``Append``, and ``Control`` access.
-
-To adjust PodBrowser's access:
-
-#. In a web browser, enter the root URL to your Pod (e.g.,
-   https://docs-example.inrupt.net).
-   
-   The browser should open to the `SolidOS`_.
-
-#. Click the :guilabel:`Log In` button to log into your Pod.
-
-#. Go to the :guilabel:`Preferences` tab.
-
-#. In the :guilabel:`Manage your trusted applications` section:
-
-   | If PodBrowser is not listed as a trusted application:
-  
-     #. At the bottom of the table enter:
-
-        .. list-table::
-          :header-rows: 1
-
-          * - Application URL
-
-            - Access modes
-
-          * - ``https://podbrowser.inrupt.com``
-
-            - ``Read``, ``Write``, ``Append``, and ``Control``
-    
-     #. Click :guilabel:`Add`.
-
-   | If PodBrowser is listed as a trusted application but with the
-     wrong access, select all of the access modes and click
-     :guilabel:`Update`.
-
-.. _`SolidOS`: https://github.com/solid/userguide/blob/main/README.md
-
-
 How do I navigate to another Pod?
 =================================
 

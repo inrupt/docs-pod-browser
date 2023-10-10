@@ -33,7 +33,7 @@ To sign into `Inrupt PodSpaces <https://docs.inrupt.com/pod-spaces>`_:
 #. Enter your :guilabel:`Username` and :guilabel:`Password` and :guilabel:`Sign In`.
 
 #. You are asked to allow the specified access. To continue, click
-   :guilabel:`Allow` to allow PodBrowser access to the requested information.
+   :guilabel:`Continue` to allow PodBrowser access to the requested information.
 
 See also `Inrupt PodSpaces
 <https://docs.inrupt.com/pod-spaces>`_.
