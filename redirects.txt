@@ -1,0 +1,8 @@
+user-interface/podbrowser/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
+user-interface/podbrowser/faq/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
+user-interface/podbrowser/login/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
+user-interface/podbrowser/update-profile/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
+user-interface/podbrowser/manage-access-requests-grants/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
+user-interface/podbrowser/manage-files/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
+user-interface/podbrowser/manage-contacts/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
+user-interface/podbrowser/manage-bookmarks/index.html -> https://www.inrupt.com/blog/podbrowser-sunset
