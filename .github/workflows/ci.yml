@@ -27,7 +27,7 @@ jobs:
 
     # Install dependencies
     - name: Install dependencies
-      run: python -m pip install -r requirements.txt
+      run: python -m pip install -r https://raw.githubusercontent.com/inrupt/docs-assets/main/requirements/general/requirements.txt
 
     # Build documentation
     - name: Build the documentation
